@@ -1,4 +1,5 @@
 asgiref==3.2.3
+psycopg2==2.8.5
 awsebcli==3.18.1
 botocore==1.15.49
 cement==2.8.2
