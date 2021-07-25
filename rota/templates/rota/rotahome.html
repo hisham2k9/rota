@@ -1,0 +1,27 @@
+{% extends 'rota/rotabase.html' %}
+
+{% block content %}
+<h1>Hello {{intro}}</h1>
+
+
+<form action="download" method="post" enctype="multipart/form-data">
+
+    {% csrf_token %}
+    Upload your EMPTY roster here          :
+    <input type="file" name="roster" id="df"><br/>
+    <br/>
+    <br/>
+    Upload your PREVIOUS roster here  :
+    <input type="file" name="previous_roster" id="pdf"><br/>
+    <br/>
+    <input type="submit" value="Download roster" name="submit"><br/>
+
+    <h2>Requirements</h2><br/>
+    <h3>1. Both files should have following sheets: 'Update', 'Summary', 'Requirements'', 'Duplicate', 'ReadMe'.<br/><br/>
+    2. The Empty/new roster should have the 'Update' sheet empty with roster codes starting at cell D3.</h3>
+</form>
+
+
+
+
+{% endblock %}

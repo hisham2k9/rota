@@ -1,0 +1,10 @@
+{% extends 'rota/rotabase.html' %}
+{% block content %}
+
+<form action = "rota" method="POST">
+
+    {% csrf_token %}
+    <h2>{{select}}</h2>
+    1.
+    <input type="submit" value="Open ROTA" name="submit"><br/>
+{% endblock %}
