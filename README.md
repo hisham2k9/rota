@@ -7,3 +7,5 @@ To build a local version:
 2. pip install -r requirements.txt
 3. python manage.py runserver
 4. Use the 'Template.xlsx' as first sample spreadsheet. You can add and remove requirements and number of staff in the template spreadsheet as needed.
+
+You can test the live version of the same at: https://www.hisham2k9.pythonanywhere.com/rota
