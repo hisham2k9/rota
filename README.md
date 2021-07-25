@@ -6,4 +6,4 @@ To build a local version:
 1. Clone the repo
 2. pip install -r requirements.txt
 3. python manage.py runserver
-4. Use the template.xlsx as first sample spreadsheet. You can add and remove requirements and number of staff in the template spreadsheet.
+4. Use the 'Template.xlsx' as first sample spreadsheet. You can add and remove requirements and number of staff in the template spreadsheet.
