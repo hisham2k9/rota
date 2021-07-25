@@ -122,6 +122,14 @@ def download(request):
 
 
 
+def template(request):
+    print('hellow template')
+    path_to_file = os.path.realpath("Template.xlsx")
+    with open(path_to_file, 'rb') as excel:
+        file = excel.read()
+    response = HttpResponse(file, content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    response['Content-Disposition'] = 'attachment; filename=Template.xlsx'
+    return response
 
 
 
