@@ -1,8 +1,8 @@
 # Rota Application for Hospitals
 
-An Application build in Python using django framework. makes use of pandas library to process the spread that it takes as input and process the requirement and staff list and gives an output spreadsheet with filled roster.
+An Application build in Python using django framework. makes use of pandas library to process the spreadsheet that it takes as input and process the requirement and staff list and gives an output spreadsheet with completed roster.
 
-To build a local version: 
+To build a local copy: 
 1. Clone the repo
 2. pip install -r requirements.txt
 3. python manage.py runserver
